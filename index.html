@@ -5,356 +5,320 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muaffaq Qaddoura</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ── NAV ─────────────────────────────────────────── -->
+  <!-- NAV -->
   <nav id="nav">
     <div class="nav-inner">
-      <a class="logo" href="#">MQ<span>.</span></a>
+      <a class="logo" href="#">MQ</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a class="nav-btn" href="https://github.com/MuaffaqQaddoura" target="_blank">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-        GitHub
-      </a>
+      <a class="nav-resume" href="https://github.com/MuaffaqQaddoura" target="_blank">GitHub ↗</a>
     </div>
   </nav>
 
-  <!-- ── HERO ────────────────────────────────────────── -->
+  <!-- HERO -->
   <section id="hero">
-    <div class="hero-bg-grid"></div>
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-    <div class="container hero-grid">
+    <div class="hero-inner">
 
-      <!-- Left -->
-      <div class="hero-left" id="hero-left">
-        <div class="status-pill">
-          <span class="status-dot"></span>
-          Open to opportunities · Toronto, ON
+      <!-- Text side -->
+      <div class="hero-text" id="htxt">
+        <div class="avail">
+          <span class="avail-dot"></span>
+          Available for opportunities
         </div>
-        <h1 class="hero-name">
-          <span class="name-line" id="nl1">Muaffaq</span>
-          <span class="name-line accent" id="nl2">Qaddoura</span>
+
+        <h1>
+          <span class="h1-hi">Hello, I'm</span>
+          <span class="h1-name">Muaffaq<br>Qaddoura</span>
         </h1>
-        <div class="hero-role">
-          <span class="role-prefix">I build </span>
-          <span class="role-typed" id="typed"></span><span class="cursor">|</span>
+
+        <div class="typing-line">
+          <span class="typing-prefix">I build </span><span id="typed"></span><span class="caret">|</span>
         </div>
-        <p class="hero-desc">
-          BTM student at Toronto Metropolitan University — turning data into decisions through AI, business intelligence, and cybersecurity.
+
+        <p class="hero-bio">
+          BTM student at Toronto Metropolitan University —
+          building at the intersection of <strong>Business</strong>,
+          <strong>AI</strong>, and <strong>Cybersecurity</strong>.
         </p>
+
         <div class="hero-ctas">
-          <a href="#projects" class="cta-primary">View Projects</a>
-          <a href="#contact" class="cta-ghost">Get in Touch ↗</a>
+          <a href="#projects" class="btn-fill">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
         </div>
+
         <div class="hero-socials">
-          <a href="https://github.com/MuaffaqQaddoura" target="_blank" aria-label="GitHub">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <a href="https://github.com/MuaffaqQaddoura" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
           </a>
-          <a href="https://linkedin.com/in/muaffaq-qaddoura" target="_blank" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <a href="https://linkedin.com/in/muaffaq-qaddoura" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href="mailto:muaffaq.qaddoura@torontomu.ca" aria-label="Email">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:muaffaq.qaddoura@torontomu.ca">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           </a>
         </div>
       </div>
 
-      <!-- Right — Photo -->
-      <div class="hero-right" id="hero-right">
-        <div class="photo-wrap">
-          <div class="photo-ring ring-1"></div>
-          <div class="photo-ring ring-2"></div>
-          <div class="photo-glow"></div>
-          <img src="me.jpg" alt="Muaffaq Qaddoura" class="photo" />
+      <!-- Photo side -->
+      <div class="hero-photo-wrap" id="hphoto">
+        <div class="photo-frame">
+          <img src="me.jpg" alt="Muaffaq Qaddoura" />
+          <div class="photo-accent top-left"></div>
+          <div class="photo-accent bottom-right"></div>
         </div>
-        <div class="hero-stats">
-          <div class="hstat">
-            <div class="hstat-val">2</div>
-            <div class="hstat-label">Projects Live</div>
-          </div>
-          <div class="hstat-div"></div>
-          <div class="hstat">
-            <div class="hstat-val">3</div>
-            <div class="hstat-label">Domains</div>
-          </div>
-          <div class="hstat-div"></div>
-          <div class="hstat">
-            <div class="hstat-val">TMU</div>
-            <div class="hstat-label">University</div>
-          </div>
+        <div class="photo-tag">
+          <span class="tag-dot"></span>
+          BTM · Toronto Metropolitan University
         </div>
       </div>
 
     </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
   </section>
 
-  <!-- ── MARQUEE ──────────────────────────────────────── -->
-  <div class="marquee-wrap">
+  <!-- MARQUEE -->
+  <div class="marquee-band">
     <div class="marquee-track">
-      <div class="marquee-inner">
-        <span>Python</span><span class="dot-sep">·</span>
-        <span>LlamaIndex</span><span class="dot-sep">·</span>
-        <span>RAG Pipelines</span><span class="dot-sep">·</span>
-        <span>Groq API</span><span class="dot-sep">·</span>
-        <span>Streamlit</span><span class="dot-sep">·</span>
-        <span>Plotly</span><span class="dot-sep">·</span>
-        <span>TextBlob</span><span class="dot-sep">·</span>
-        <span>scikit-learn</span><span class="dot-sep">·</span>
-        <span>Pandas</span><span class="dot-sep">·</span>
-        <span>HuggingFace</span><span class="dot-sep">·</span>
-        <span>Prompt Engineering</span><span class="dot-sep">·</span>
-        <span>Git &amp; GitHub</span><span class="dot-sep">·</span>
-        <span>REST APIs</span><span class="dot-sep">·</span>
-        <span>Machine Learning</span><span class="dot-sep">·</span>
-        <span>NLP</span><span class="dot-sep">·</span>
-        <span>SQL</span><span class="dot-sep">·</span>
-        <!-- duplicate for seamless loop -->
-        <span>Python</span><span class="dot-sep">·</span>
-        <span>LlamaIndex</span><span class="dot-sep">·</span>
-        <span>RAG Pipelines</span><span class="dot-sep">·</span>
-        <span>Groq API</span><span class="dot-sep">·</span>
-        <span>Streamlit</span><span class="dot-sep">·</span>
-        <span>Plotly</span><span class="dot-sep">·</span>
-        <span>TextBlob</span><span class="dot-sep">·</span>
-        <span>scikit-learn</span><span class="dot-sep">·</span>
-        <span>Pandas</span><span class="dot-sep">·</span>
-        <span>HuggingFace</span><span class="dot-sep">·</span>
-        <span>Prompt Engineering</span><span class="dot-sep">·</span>
-        <span>Git &amp; GitHub</span><span class="dot-sep">·</span>
-        <span>REST APIs</span><span class="dot-sep">·</span>
-        <span>Machine Learning</span><span class="dot-sep">·</span>
-        <span>NLP</span><span class="dot-sep">·</span>
-        <span>SQL</span><span class="dot-sep">·</span>
+      <div class="marquee-content">
+        <span>Python</span><i>✦</i><span>LlamaIndex</span><i>✦</i>
+        <span>RAG Pipelines</span><i>✦</i><span>Groq API</span><i>✦</i>
+        <span>Streamlit</span><i>✦</i><span>Plotly</span><i>✦</i>
+        <span>TextBlob</span><i>✦</i><span>scikit-learn</span><i>✦</i>
+        <span>Pandas</span><i>✦</i><span>HuggingFace</span><i>✦</i>
+        <span>Prompt Engineering</span><i>✦</i><span>REST APIs</span><i>✦</i>
+        <span>Machine Learning</span><i>✦</i><span>NLP</span><i>✦</i>
+        <span>Git & GitHub</span><i>✦</i><span>SQL</span><i>✦</i>
+        <!-- dupe for seamless loop -->
+        <span>Python</span><i>✦</i><span>LlamaIndex</span><i>✦</i>
+        <span>RAG Pipelines</span><i>✦</i><span>Groq API</span><i>✦</i>
+        <span>Streamlit</span><i>✦</i><span>Plotly</span><i>✦</i>
+        <span>TextBlob</span><i>✦</i><span>scikit-learn</span><i>✦</i>
+        <span>Pandas</span><i>✦</i><span>HuggingFace</span><i>✦</i>
+        <span>Prompt Engineering</span><i>✦</i><span>REST APIs</span><i>✦</i>
+        <span>Machine Learning</span><i>✦</i><span>NLP</span><i>✦</i>
+        <span>Git & GitHub</span><i>✦</i><span>SQL</span><i>✦</i>
       </div>
     </div>
   </div>
 
-  <!-- ── ABOUT ────────────────────────────────────────── -->
+  <!-- ABOUT -->
   <section id="about">
     <div class="container">
-      <div class="section-eyebrow">About</div>
-      <div class="about-grid">
+      <div class="about-layout">
         <div class="about-left reveal">
-          <h2>I turn data<br>into decisions.</h2>
-          <p>I'm a Business Technology Management student at Toronto Metropolitan University with a focus on applied AI, competitive analytics, and cybersecurity. I build end-to-end tools that bridge the gap between raw data and actionable business insight.</p>
-          <p>My work sits at the intersection of technical depth and business value — I care just as much about <em>why</em> a tool matters as <em>how</em> it's built.</p>
-          <a href="#projects" class="cta-primary" style="display:inline-flex;margin-top:8px;">See My Work →</a>
+          <p class="eyebrow">About Me</p>
+          <h2>Turning data<br>into <em>decisions.</em></h2>
+          <p>I'm a Business Technology Management student at Toronto Metropolitan University focused on applied AI, competitive analytics, and cybersecurity. I build end-to-end tools that bridge raw data and real business insight.</p>
+          <p>My work sits at the intersection of technical depth and business value — I care as much about <strong>why</strong> a tool matters as how it's built.</p>
+          <a href="#projects" class="btn-fill" style="margin-top:8px;display:inline-flex;">See my work →</a>
         </div>
         <div class="about-right">
-          <div class="about-card reveal" style="--d:0ms">
-            <div class="ac-num">01</div>
-            <div class="ac-icon">💼</div>
-            <div class="ac-title">Business Intelligence</div>
-            <div class="ac-desc">Competitive intelligence, decision-support tools, and data-driven strategy for real business problems.</div>
+          <div class="about-stat reveal" style="--d:0ms">
+            <span class="stat-num">01</span>
+            <div>
+              <div class="stat-title">Business Intelligence</div>
+              <div class="stat-desc">Competitive intel, decision-support tools, data-driven strategy.</div>
+            </div>
           </div>
-          <div class="about-card reveal" style="--d:100ms">
-            <div class="ac-num">02</div>
-            <div class="ac-icon">🤖</div>
-            <div class="ac-title">AI &amp; Machine Learning</div>
-            <div class="ac-desc">RAG pipelines, LLM integration, sentiment analysis, and NLP applications powered by modern APIs.</div>
+          <div class="about-stat reveal" style="--d:120ms">
+            <span class="stat-num">02</span>
+            <div>
+              <div class="stat-title">AI & Machine Learning</div>
+              <div class="stat-desc">RAG pipelines, LLM integration, sentiment analysis, NLP.</div>
+            </div>
           </div>
-          <div class="about-card reveal" style="--d:200ms">
-            <div class="ac-num">03</div>
-            <div class="ac-icon">🔒</div>
-            <div class="ac-title">Cybersecurity</div>
-            <div class="ac-desc">Threat detection, phishing classification, and network anomaly analysis using ML classifiers.</div>
+          <div class="about-stat reveal" style="--d:240ms">
+            <span class="stat-num">03</span>
+            <div>
+              <div class="stat-title">Cybersecurity</div>
+              <div class="stat-desc">Threat detection, phishing classification, anomaly analysis.</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── PROJECTS ─────────────────────────────────────── -->
+  <!-- PROJECTS -->
   <section id="projects">
     <div class="container">
-      <div class="section-eyebrow">Projects</div>
-      <div class="projects-header">
+      <div class="section-head reveal">
+        <p class="eyebrow">Projects</p>
         <h2>What I've Built</h2>
-        <p>End-to-end applications across AI, business intelligence, and cybersecurity.</p>
       </div>
 
-      <div class="projects-grid">
+      <div class="project-list">
 
-        <!-- P1 — DocuMind (featured) -->
-        <article class="project-card featured reveal" style="--d:0ms">
-          <div class="pc-number">01</div>
-          <div class="pc-body">
-            <div class="pc-tags">
-              <span class="tag cyan">RAG</span>
-              <span class="tag">NLP</span>
-              <span class="tag">Python</span>
-            </div>
-            <h3>DocuMind</h3>
-            <p class="pc-sub">AI Document Q&amp;A System</p>
-            <p class="pc-desc">Upload any PDF and ask questions in plain English. Built a full RAG pipeline using LlamaIndex for vector retrieval and Groq's Llama 3.1 for generation — returning answers with exact page citations.</p>
-            <div class="pc-stack">
-              <span>LlamaIndex</span><span>Groq / Llama 3.1</span><span>HuggingFace Embeddings</span><span>Streamlit</span>
-            </div>
-            <div class="pc-links">
-              <a href="https://github.com/MuaffaqQaddoura/rag-document-qa" target="_blank" class="pc-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                View Code
+        <div class="project-row reveal" style="--d:0ms">
+          <div class="pr-num">01</div>
+          <div class="pr-body">
+            <div class="pr-top">
+              <div>
+                <h3>DocuMind</h3>
+                <p class="pr-type">AI Document Q&A System</p>
+              </div>
+              <a href="https://github.com/MuaffaqQaddoura/rag-document-qa" target="_blank" class="pr-link">
+                View Code ↗
               </a>
             </div>
+            <p class="pr-desc">Upload any PDF and ask questions in plain English. Built a full RAG pipeline using LlamaIndex for vector retrieval and Groq's Llama 3.1 for generation — returning answers grounded in the document with exact page citations.</p>
+            <div class="pr-stack">
+              <span>LlamaIndex</span><span>Groq / Llama 3.1</span><span>HuggingFace Embeddings</span><span>Streamlit</span><span>Python</span>
+            </div>
           </div>
-        </article>
+        </div>
 
-        <!-- P2 — CompeteIQ (featured) -->
-        <article class="project-card featured reveal" style="--d:100ms">
-          <div class="pc-number">02</div>
-          <div class="pc-body">
-            <div class="pc-tags">
-              <span class="tag cyan">Intelligence</span>
-              <span class="tag">NLP</span>
-              <span class="tag">Python</span>
-            </div>
-            <h3>CompeteIQ</h3>
-            <p class="pc-sub">Competitive Intelligence Dashboard</p>
-            <p class="pc-desc">Real-time competitive intelligence from NewsAPI, Google News, and Reddit. Scores sentiment across 60+ articles and generates structured AI executive briefs with evidence, risk signals, and recommended actions.</p>
-            <div class="pc-stack">
-              <span>Groq / Llama 3.1</span><span>TextBlob</span><span>Plotly</span><span>Streamlit</span>
-            </div>
-            <div class="pc-links">
-              <a href="https://github.com/MuaffaqQaddoura/competitive-intel-dashboard" target="_blank" class="pc-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                View Code
+        <div class="project-row reveal" style="--d:80ms">
+          <div class="pr-num">02</div>
+          <div class="pr-body">
+            <div class="pr-top">
+              <div>
+                <h3>CompeteIQ</h3>
+                <p class="pr-type">Competitive Intelligence Dashboard</p>
+              </div>
+              <a href="https://github.com/MuaffaqQaddoura/competitive-intel-dashboard" target="_blank" class="pr-link">
+                View Code ↗
               </a>
             </div>
-          </div>
-        </article>
-
-        <!-- P3 — Coming Soon -->
-        <article class="project-card wip reveal" style="--d:200ms">
-          <div class="pc-number">03</div>
-          <div class="pc-body">
-            <div class="pc-tags">
-              <span class="tag muted">Coming Soon</span>
+            <p class="pr-desc">Real-time competitive intelligence aggregated from NewsAPI, Google News, and Reddit. Scores sentiment across 60+ articles and generates AI executive briefs with evidence, risk signals, and recommended actions.</p>
+            <div class="pr-stack">
+              <span>Groq / Llama 3.1</span><span>TextBlob</span><span>Plotly</span><span>Streamlit</span><span>Python</span>
             </div>
-            <h3>AI Resume Scorer</h3>
-            <p class="pc-sub">Job Match Intelligence Tool</p>
-            <p class="pc-desc">Paste a job description and upload your resume — get an AI fit score, gap analysis, and tailored recommendations to maximise your match rate.</p>
-            <div class="pc-stack">
+          </div>
+        </div>
+
+        <div class="project-row wip reveal" style="--d:160ms">
+          <div class="pr-num">03</div>
+          <div class="pr-body">
+            <div class="pr-top">
+              <div>
+                <h3>AI Resume Scorer <span class="wip-pill">In Development</span></h3>
+                <p class="pr-type">Job Match Intelligence Tool</p>
+              </div>
+            </div>
+            <p class="pr-desc">Paste a job description and upload your resume — get an AI-powered fit score, gap analysis, and tailored recommendations to maximise your match rate.</p>
+            <div class="pr-stack">
               <span>Groq API</span><span>Prompt Engineering</span><span>Streamlit</span>
             </div>
-            <div class="wip-badge"><span class="wip-dot"></span> In Development</div>
           </div>
-        </article>
+        </div>
 
-        <!-- P4 — Coming Soon -->
-        <article class="project-card wip reveal" style="--d:300ms">
-          <div class="pc-number">04</div>
-          <div class="pc-body">
-            <div class="pc-tags">
-              <span class="tag muted">Coming Soon</span>
+        <div class="project-row wip reveal" style="--d:240ms">
+          <div class="pr-num">04</div>
+          <div class="pr-body">
+            <div class="pr-top">
+              <div>
+                <h3>Network Anomaly Detector <span class="wip-pill">In Development</span></h3>
+                <p class="pr-type">ML-Powered Threat Detection</p>
+              </div>
             </div>
-            <h3>Network Anomaly Detector</h3>
-            <p class="pc-sub">ML-Powered Threat Detection</p>
-            <p class="pc-desc">ML classifier trained on the NSL-KDD dataset to detect network intrusions and anomalous traffic patterns in real time.</p>
-            <div class="pc-stack">
+            <p class="pr-desc">ML classifier trained on the NSL-KDD dataset to detect network intrusions and anomalous traffic patterns using scikit-learn.</p>
+            <div class="pr-stack">
               <span>scikit-learn</span><span>Pandas</span><span>NSL-KDD</span><span>Streamlit</span>
             </div>
-            <div class="wip-badge"><span class="wip-dot"></span> In Development</div>
           </div>
-        </article>
+        </div>
 
-        <!-- P5 — Coming Soon -->
-        <article class="project-card wip reveal" style="--d:400ms">
-          <div class="pc-number">05</div>
-          <div class="pc-body">
-            <div class="pc-tags">
-              <span class="tag muted">Coming Soon</span>
+        <div class="project-row wip reveal" style="--d:320ms">
+          <div class="pr-num">05</div>
+          <div class="pr-body">
+            <div class="pr-top">
+              <div>
+                <h3>Phishing Email Classifier <span class="wip-pill">In Development</span></h3>
+                <p class="pr-type">NLP-Based Security Tool</p>
+              </div>
             </div>
-            <h3>Phishing Email Classifier</h3>
-            <p class="pc-sub">NLP-Based Security Tool</p>
-            <p class="pc-desc">ML classifier trained on the Enron dataset to detect phishing and spam emails, with an interactive UI for testing email samples.</p>
-            <div class="pc-stack">
+            <p class="pr-desc">NLP classifier trained on the Enron dataset to detect phishing and spam emails, with an interactive UI for testing real-world samples.</p>
+            <div class="pr-stack">
               <span>scikit-learn</span><span>NLP</span><span>Enron Dataset</span><span>Streamlit</span>
             </div>
-            <div class="wip-badge"><span class="wip-dot"></span> In Development</div>
           </div>
-        </article>
+        </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ── SKILLS ───────────────────────────────────────── -->
+  <!-- SKILLS -->
   <section id="skills">
     <div class="container">
-      <div class="section-eyebrow">Skills</div>
-      <h2 class="skills-title">Technical Toolkit</h2>
-      <div class="skills-grid">
-        <div class="skill-col reveal" style="--d:0ms">
-          <div class="skill-col-head"><span>🤖</span> AI &amp; Machine Learning</div>
-          <ul>
-            <li>Python</li><li>LlamaIndex</li><li>LangChain</li>
-            <li>RAG Pipelines</li><li>Prompt Engineering</li>
-            <li>HuggingFace</li><li>TextBlob / NLP</li><li>scikit-learn</li>
-          </ul>
+      <div class="section-head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical Toolkit</h2>
+      </div>
+      <div class="skills-wrap">
+        <div class="skill-group reveal" style="--d:0ms">
+          <div class="sg-label">🤖 AI & Machine Learning</div>
+          <div class="sg-pills">
+            <span>Python</span><span>LlamaIndex</span><span>LangChain</span>
+            <span>RAG Pipelines</span><span>Prompt Engineering</span>
+            <span>HuggingFace</span><span>TextBlob</span><span>scikit-learn</span>
+          </div>
         </div>
-        <div class="skill-col reveal" style="--d:100ms">
-          <div class="skill-col-head"><span>📊</span> Data &amp; Analytics</div>
-          <ul>
-            <li>Pandas</li><li>Plotly</li><li>SQL</li>
-            <li>Data Visualization</li><li>Sentiment Analysis</li>
-            <li>API Integration</li><li>REST APIs</li>
-          </ul>
+        <div class="skill-group reveal" style="--d:100ms">
+          <div class="sg-label">📊 Data & Analytics</div>
+          <div class="sg-pills">
+            <span>Pandas</span><span>Plotly</span><span>SQL</span>
+            <span>Data Visualization</span><span>Sentiment Analysis</span>
+            <span>REST APIs</span><span>API Integration</span>
+          </div>
         </div>
-        <div class="skill-col reveal" style="--d:200ms">
-          <div class="skill-col-head"><span>🔒</span> Cybersecurity</div>
-          <ul>
-            <li>Network Analysis</li><li>Anomaly Detection</li>
-            <li>Phishing Classification</li><li>ML Security Models</li>
-            <li>NSL-KDD Dataset</li><li>Threat Detection</li>
-          </ul>
+        <div class="skill-group reveal" style="--d:200ms">
+          <div class="sg-label">🔒 Cybersecurity</div>
+          <div class="sg-pills">
+            <span>Anomaly Detection</span><span>Network Analysis</span>
+            <span>Phishing Classification</span><span>ML Security</span>
+            <span>NSL-KDD</span><span>Threat Detection</span>
+          </div>
         </div>
-        <div class="skill-col reveal" style="--d:300ms">
-          <div class="skill-col-head"><span>💼</span> Business &amp; Tools</div>
-          <ul>
-            <li>Streamlit</li><li>Git &amp; GitHub</li>
-            <li>Agile</li><li>Business Analysis</li>
-            <li>Technical Writing</li><li>Competitive Intel</li>
-          </ul>
+        <div class="skill-group reveal" style="--d:300ms">
+          <div class="sg-label">💼 Business & Tools</div>
+          <div class="sg-pills">
+            <span>Streamlit</span><span>Git & GitHub</span>
+            <span>Agile</span><span>Business Analysis</span>
+            <span>Technical Writing</span><span>Competitive Intel</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── CONTACT ──────────────────────────────────────── -->
+  <!-- CONTACT -->
   <section id="contact">
     <div class="container">
-      <div class="contact-inner reveal">
-        <div class="glow glow-3"></div>
-        <div class="section-eyebrow">Contact</div>
-        <h2>Let's Connect</h2>
-        <p>Open to internships, co-ops, and project collaborations in AI, business intelligence, or cybersecurity.</p>
-        <div class="contact-btns">
-          <a href="mailto:muaffaq.qaddoura@torontomu.ca" class="cta-primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            Send an Email
-          </a>
-          <a href="https://linkedin.com/in/muaffaq-qaddoura" target="_blank" class="cta-ghost">LinkedIn ↗</a>
-          <a href="https://github.com/MuaffaqQaddoura" target="_blank" class="cta-ghost">GitHub ↗</a>
+      <div class="contact-wrap reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's work together.</h2>
+        <p>Open to internships, co-ops, and collaborations in AI, business intelligence, or cybersecurity.</p>
+        <div class="contact-ctas">
+          <a href="mailto:muaffaq.qaddoura@torontomu.ca" class="btn-fill">Send an Email</a>
+          <a href="https://linkedin.com/in/muaffaq-qaddoura" target="_blank" class="btn-outline">LinkedIn ↗</a>
+          <a href="https://github.com/MuaffaqQaddoura" target="_blank" class="btn-outline">GitHub ↗</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── FOOTER ───────────────────────────────────────── -->
+  <!-- FOOTER -->
   <footer>
     <div class="container footer-inner">
-      <span class="logo">MQ<span>.</span></span>
-      <span class="footer-copy">© 2026 Muaffaq Qaddoura · Built from scratch</span>
-      <a href="https://github.com/MuaffaqQaddoura/MuaffaqQaddoura.github.io" target="_blank" class="footer-src">View Source ↗</a>
+      <span class="logo">MQ</span>
+      <span>© 2026 Muaffaq Qaddoura</span>
+      <a href="https://github.com/MuaffaqQaddoura/MuaffaqQaddoura.github.io" target="_blank">Source ↗</a>
     </div>
   </footer>
 
